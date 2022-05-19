@@ -19,7 +19,7 @@
 .side-content {
   background: rgba(55, 106, 237);
   flex: 1;
-  padding: 75px 115px 78px;
+  padding: 5.25% 8%;
   color: white;
   max-width: 50%;
 }
@@ -90,6 +90,7 @@
   align-items: center;
   border-radius: 20px;
   cursor: pointer;
+  box-shadow: 0px 6px 20px 0px rgba(13, 37, 60, 0.4);
 }
 
 .login-button:active {
@@ -115,4 +116,98 @@
 .main-content {
   flex: 1;
   max-width: 50%;
+  padding: 5.25% 6.5%;
+}
+
+.main-header-title {
+  font-size: 2.25rem;
+  font-weight: 900;
+  line-height: 49px;
+  color: rgba(13, 37, 60, 1);
+}
+
+.main-header-info {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  color: rgba(123, 139, 178, 1);
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 27px;
+  color: rgba(13, 37, 60, 1);
+}
+
+input,
+.register-submit {
+  border: 1px solid rgba(206, 225, 242, 1);
+  width: 100%;
+  height: 75px;
+  padding: 25px 30px;
+  border-radius: 20px;
+}
+
+input[type="text"],
+input[type="password"] {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.register-submit {
+  margin: 20px 0px;
+  box-shadow: 0px 6px 20px 0px rgba(55, 106, 237, 0.41);
+  border: none;
+  background: rgba(55, 106, 237, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 25px;
+  color: white;
+}
+
+.register-submit:active {
+  background: rgb(74, 123, 249);
+}
+
+.other-signup-method {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 23px;
+}
+
+.signup-method {
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 18px;
+  letter-spacing: 1.75px;
+}
+
+.signup-method-icon {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 0 50px;
+  height: 53px;
+}
+
+.login-button,
+.register-submit {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -o-user-select: none;
 }
