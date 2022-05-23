@@ -1,2 +1,32 @@
 <h1 style="text-align:center">Daily News</h1>
-![icon](/assets/img/news_icon.png)
+
+<div style="display:flex; justify-content:center">
+    <img src="assets/img/news_icon.png" alt="news-icon" />
+</div>
+
+## Built With
+
+![html](https://img.shields.io/badge/html-5-blue)
+![css](https://img.shields.io/badge/css-3-yellow)
+
+## How To Install
+
+1. Clone the repository
+   ```
+   $ git clone https://github.com/rhymado/news-app-html.git
+   ```
+2. Open [VS Code](https://code.visualstudio.com/)
+3. Install [Live Server Extension for VS Code](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+4. Right click _index.html_ then choose **Open With Live Server**
+
+## Preview
+
+<div style='display:flex;flex-direction:column;row-gap:10px;align-items:center'>
+<img src="assets/screenshot/signin.png"  alt="login" />
+<img src="assets/screenshot/home.png"  alt="home" />
+<img src="assets/screenshot/profile.png"  alt="profile" />
+</div>
+
+## Related Project
+
+[link ke backend]()
